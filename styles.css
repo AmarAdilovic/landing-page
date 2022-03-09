@@ -6,11 +6,26 @@ body{
 .header{
     display: flex;
     background-color: #1F2937;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+
 }
 
 .header p{
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+}
+
+.headerLinks{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: auto;
+}
+
+.headerLinks a{
+    color: rgb(173, 173, 173);
+    text-decoration: none;
 }
