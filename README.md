@@ -1,0 +1,1 @@
+This is an implementation of a basic landing page using HTML and CSS.
