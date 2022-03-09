@@ -13,7 +13,8 @@ body{
 }
 
 .header p{
-    color: white;
+    color: #F9FAF8;
+    font-size: 24px;
     display: flex;
     align-items: center;
 }
@@ -28,4 +29,32 @@ body{
 .headerLinks a{
     color: rgb(173, 173, 173);
     text-decoration: none;
+}
+
+.heroHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+
+    background-color: #1F2937;
+    padding: 48px;
+
+}
+
+.heroLeftSide h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.heroLeftSide p{
+    font-size: 18px;
+    color: #E5e7EB;
+}
+
+
+.heroRightSide img{
+    height: 400px;
+    width: 500px;
 }
