@@ -3,6 +3,7 @@ This is an implementation of a basic landing page using HTML and CSS.
 
 
 Image Credits:
+
 man-working-laptop.jpg - Photo by OVAN from Pexels
 [Link: https://www.pexels.com/photo/person-sitting-facing-laptop-computer-with-sketch-pad-57690/]
 

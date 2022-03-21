@@ -29,7 +29,10 @@ body{
     color: rgb(173, 173, 173);
     text-decoration: none;
 }
+.headerLinks a:hover{
+    color: rgb(200, 200, 200);
 
+}
 .heroHeader{
     display: flex;
     justify-content: center;
@@ -52,6 +55,22 @@ body{
     color: #E5e7EB;
 }
 
+.heroLeftSide button{
+    display: flex;
+    padding: 10px 15px;
+
+    background-color: #3882F6;
+    color: white;
+
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.heroLeftSide button:hover{
+    background-color: #4f8ff5;
+}
 
 .heroRightSide img{
     height: 400px;
