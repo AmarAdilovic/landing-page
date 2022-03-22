@@ -19,7 +19,7 @@ body{
     
 }
 
-.headerLinks{
+.header .headerLinks{
     display: flex;
     align-items: center;
     gap: 30px;
@@ -43,21 +43,22 @@ body{
 
     background-color: #1F2937;
     padding: 48px;
+    margin-bottom: 30px;
 
 }
 
-.heroLeftSide h1{
+.heroHeader .heroLeftSide h1{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
 }
 
-.heroLeftSide p{
+.heroHeader .heroLeftSide p{
     font-size: 18px;
     color: #E5e7EB;
 }
 
-.heroLeftSide button{
+.heroHeader .heroLeftSide button{
     display: flex;
     padding: 10px 15px;
 
@@ -70,11 +71,11 @@ body{
     border-radius: 8px;
 }
 
-.heroLeftSide button:hover{
+.heroHeader .heroLeftSide button:hover{
     background-color: #4f8ff5;
 }
 
-.heroRightSide img{
+.heroHeader .heroRightSide img{
     height: 400px;
     width: 500px;
 }
@@ -84,12 +85,16 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    margin-bottom: 30px;
+
 }
 
 .informationalSection h2{
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+
 }
 
 .informationalSection .exampleImages{
@@ -109,4 +114,48 @@ body{
 .informationalSection .exampleImages p, img{
     width: 250px;
     margin: 5px 20px;
+}
+
+.quoteSection{
+    background-color: #E5e7EB;
+    display: flex;
+    flex-direction: column;
+
+    flex-wrap: wrap;
+}
+
+.quoteSection .alignQuote{
+    display: flex;
+}
+
+.alignQuote .emptySpaceLeft{
+    flex: 1.4;
+}
+
+.alignQuote .quote{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+
+    flex: 3;
+}
+
+.alignQuote .emptySpaceRight{
+    flex: 1;
+}
+
+.quoteSection .customer{
+    display: flex;
+}
+
+.customer .emptySpace{
+    flex-grow: 3;
+}
+
+.customer p{
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: bolder;
+
+    flex-grow: 1;
 }
