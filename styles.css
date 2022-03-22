@@ -16,6 +16,7 @@ body{
     font-size: 24px;
     display: flex;
     align-items: center;
+    
 }
 
 .headerLinks{
@@ -37,6 +38,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 75px;
 
     background-color: #1F2937;
@@ -75,4 +77,36 @@ body{
 .heroRightSide img{
     height: 400px;
     width: 500px;
+}
+
+.informationalSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.informationalSection h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.informationalSection .exampleImages{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.informationalSection .exampleImages img{
+    height: 175px;
+
+    border:#3882F6;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.informationalSection .exampleImages p, img{
+    width: 250px;
+    margin: 5px 20px;
 }
