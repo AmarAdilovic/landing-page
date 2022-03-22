@@ -187,12 +187,13 @@ body{
 }
 
 .leftSide .largerText{
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bolder;
 }
 
 .leftSide .smallerText{
-    margin-top: -20px;
+    margin-top: -24px;
+    padding-bottom: 10px;
 }
 
 .callToAction .rightSide{
