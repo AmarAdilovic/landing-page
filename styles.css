@@ -63,7 +63,7 @@ body{
     padding: 10px 15px;
 
     background-color: #3882F6;
-    color: white;
+    color: #F9FAF8;
 
     border: none;
     text-align: center;
@@ -157,5 +157,66 @@ body{
     font-size: 18px;
     font-weight: bolder;
 
+    flex-grow: 1;
+}
+
+.callToAction{
+    display: flex;
+
+}
+
+.callToAction .emptySpaceLeft{
+    flex-grow: 1;
+}
+
+.callToAction .content{
+    display: flex;
+    background-color: #3882F6;
+    background-clip: content-box;
+
+    justify-content: center;
+    flex-grow: 2;
+
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.callToAction .leftSide{
+    color: #F9FAF8;
+
+}
+
+.leftSide .largerText{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.leftSide .smallerText{
+    margin-top: -20px;
+}
+
+.callToAction .rightSide{
+    align-self: center;
+    margin-left: 150px;
+}
+
+.rightSide button{
+    padding: 10px 25px;
+
+    background-color: #3882F6;
+    color: #F9FAF8;
+
+    border: solid;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rightSide button:hover{
+    background-color: #4f8ff5;
+    border-color: #3882F6;
+}
+
+.callToAction .emptySpaceRight{
     flex-grow: 1;
 }
