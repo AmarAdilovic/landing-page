@@ -220,3 +220,17 @@ body{
 .callToAction .emptySpaceRight{
     flex-grow: 1;
 }
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    padding: 8px;
+
+    justify-content: center;
+}
+
+.footer p{
+    color: #F9FAF8;
+    display: flex;
+
+}
