@@ -2,6 +2,7 @@
 
 :root{
     --landing-bg: #1F2937;
+    --landing-white: #F9FAF8;
 }
 
 body{
@@ -33,7 +34,7 @@ html{
 }
 
 .header .logo{
-    color: #F9FAF8;
+    color: var(--landing-white);
     font-size: 24px;
     
 }
@@ -46,7 +47,7 @@ html{
 }
 
 .headerLinks a{
-    color: #F9FAF8;
+    color: var(--landing-white);
     text-decoration: none;
 }
 .headerLinks a:hover{
@@ -87,7 +88,7 @@ html{
 .hero h1{
     font-size: 48px;
     font-weight: bolder;
-    color: #F9FAF8;
+    color: var(--landing-white);
 }
 
 .hero p{
@@ -100,7 +101,7 @@ html{
     border: 2px solid transparent;
 
     background-color: #3882F6;
-    color: #F9FAF8;
+    color: var(--landing-white);
 
     text-align: center;
     text-decoration: none;
@@ -110,8 +111,8 @@ html{
 
 .hero button:hover{
     background-color: transparent;
-    color: #F9FAF8;
-    border:2px solid rgb(173, 173, 173);
+    color: var(--landing-white);
+    border: 2px solid rgb(173, 173, 173);
     cursor: pointer;
 }
 
@@ -129,7 +130,6 @@ html{
 .informationalSection h2{
     font-size: 36px;
     font-weight: bolder;
-    color: var(--landing-bg);
 
 }
 
@@ -155,14 +155,13 @@ html{
 
 .quoteSection{
     background-color: #E5e7EB;
-    display: flex;
-    flex-direction: column;
+
     padding-top: 25px;
+    padding-bottom: 40px;
     flex-wrap: wrap;
 }
 
 .alignQuote .quote{
-    color: #1F2937;
     font-size: 36px;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
@@ -190,7 +189,7 @@ html{
 
 
 .customer p{
-    color: #1F2937;
+    color: var(--landing-bg);
     font-size: 18px;
     font-weight: bolder;
 
@@ -216,7 +215,7 @@ html{
 }
 
 .callToAction .leftSide{
-    color: #F9FAF8;
+    color: var(--landing-white);
 
 }
 
@@ -239,7 +238,7 @@ html{
     padding: 10px 25px;
 
     background-color: #3882F6;
-    color: #F9FAF8;
+    color: var(--landing-white);
 
     border: solid;
     border-radius: 8px;
@@ -248,7 +247,7 @@ html{
 }
 
 .rightSide button:hover{
-    background-color: #F9FAF8;
+    background-color: var(--landing-white);
     color: #3882F6;
     border-color: #3882F6;
     cursor: pointer;
@@ -256,25 +255,51 @@ html{
 
 
 .footer{
-    display: flex;
-    background-color: #1F2937;
+    background-color: var(--landing-bg);
     padding: 8px;
-
-    justify-content: center;
+    
+    text-align: center;
 }
 
 .footer p{
-    color: #F9FAF8;
-    display: flex;
+    color: var(--landing-white);
 
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 588px){
+    
+    .header .logo{
+        font-size: 18px;
+    }
+
+    .header .headerLinks{
+        font-size: 14px;
+    }
+
+    .hero h1{
+        font-size: 42px;
+    }
+    
+    .hero p{
+        font-size: 16px;
+    }
+
+    .informationalSection h2{
+        font-size: 30px;
+    }
+    .alignQuote .quote{
+        font-size: 32px;
+    }
+    
     .callToAction{
         width: 100%;
     }
 
     .callToAction .content{
         border-radius: 0px;
+    }
+
+    .footer{
+        width: 100%;
     }
 }

@@ -1,6 +1,7 @@
 This is an implementation of a basic landing page using HTML and CSS.
 
-
+GitHub Pages Link:
+https://amaradilovic.github.io/landing-page/
 
 Image Credits:
 
