@@ -54,7 +54,7 @@ html{
 
 }
 .hero{
-    background-image: url("/images/man-working-laptop.jpg");
+    background-image: url("./images/man-working-laptop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
